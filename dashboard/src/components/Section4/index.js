@@ -6,14 +6,14 @@ const Section4=()=>{
     return(
     <div className="section4Container">
         <div className="sec4-1">
-            <div>
-                <button onClick={()=>setBool(true)}>Automations</button>
-                <button onClick={()=>setBool(false)}>Campaigns</button>
-                <button onClick={()=>setBool(false)}>Segments</button>
+            <div className="sec-4Btn-Cont">
+                <button className="section4Btn" onClick={()=>setBool(true)}>Automations</button>
+                <button className="section4Btn" onClick={()=>setBool(false)}>Campaigns</button>
+                <button className="section4Btn" onClick={()=>setBool(false)}>Segments</button>
             </div>
-            <div>
+            <div className="Sec4Con1">
                 {bool?
-                <div>
+                <div className="Sec4Con">
                     <div className="cartItem">
                         <div>
                             <h4>Abandoned Cart 7 days</h4>
@@ -47,7 +47,7 @@ const Section4=()=>{
                             <p className="Title">41 Orders | $150 AOV</p>
                         </div>
                     </div>
-                </div>:<div>
+                </div>:<div className="NoDataDiv">
                     <h3>No Data</h3></div>}
             </div>
         </div>

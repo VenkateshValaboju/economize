@@ -3,5 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height:15%
+    min-height:15%;
+}
+
+@media screen and (max-height:412px){
+    .QuickLookContainer{
+        flex-direction: column;
+    }
 }

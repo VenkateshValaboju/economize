@@ -1,7 +1,6 @@
 .sidebar{
     width:25vw;
     border-right:solid;
-    height:100vh;
     transition: 500ms;
     padding:15px;
     display: flex;
@@ -24,10 +23,10 @@ input{
 }
 .navProfileContainer{
     display: flex;
-
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    border-style:solid
 }
 .navproImg{
     width:55px;
@@ -44,4 +43,9 @@ input{
 hr{
     margin-top:15px;
     margin-bottom:25px;
+}
+
+Link{
+    color:black;
+    border-style: solid;
 }

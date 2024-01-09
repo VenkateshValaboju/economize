@@ -1,5 +1,6 @@
 .section4Container{
     display: flex;
+    height:35vh;
 }
 
 .cartItem{
@@ -8,11 +9,67 @@
 }
 .sec4-1{
     width:65%;
+    height:100%;
 }
 .gaugeCont{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width:35%
+    width:35%;
+    height:100%;
 }
+.sec-4Btn-Cont{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:10%;
+    border-bottom: solid;
+    padding-bottom:7px;
+    border-color:#616161;
+}
+
+.section4Btn{
+    width:30%;
+    text-align: center;
+    height:25px;
+    border-radius: 25px;
+    border-style: none;
+    font-weight:bold;
+    background-color:transparent;
+    transition: 5ms;
+}
+
+.section4Btn:hover{
+    background-color: lightcyan;
+}
+
+.NoDataDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.Sec4Con1{
+    height:90%;    
+}
+
+.Sec4Con{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.cartItem{
+    padding:15px;
+    border-radius: 15px;
+
+}
+
+.cartItem:hover{
+    background-color: lightcyan}

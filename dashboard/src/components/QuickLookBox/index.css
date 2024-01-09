@@ -18,7 +18,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap:7px
+    gap:7px;
+    border-right:solid;
+    margin-right: 15px;
 }
 
 .percentBox{
