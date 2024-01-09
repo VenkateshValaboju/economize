@@ -1,0 +1,18 @@
+.section4Container{
+    display: flex;
+}
+
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+}
+.sec4-1{
+    width:65%;
+}
+.gaugeCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:35%
+}

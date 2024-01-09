@@ -1,0 +1,24 @@
+.greetings {
+    font-weight: bolder;
+}
+
+*{
+    text-align:left
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.greetingsContainer{
+    height:13%;
+}
+.profileImage{
+    width:85px;
+    height:85px;
+    border-radius: 250px;
+}
+.greetBox1{
+    display: flex;
+    align-items: center;
+    gap:13px;
+}
